@@ -772,8 +772,16 @@ a:focus {
     Utility classes to put specific colors onto elements
 */
 
+.u-color-primary-light {
+    color: #7373F5;
+}
+
 .u-color-primary-base {
     color: #5051DB;
+}
+
+.u-color-primary-dark {
+    color: #3E3EA8;
 }
 
 /*
