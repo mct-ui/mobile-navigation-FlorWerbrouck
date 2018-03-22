@@ -214,21 +214,12 @@ a:focus {
     background-color: #F7F7FA;
 }
 
-.o-row--primary-base {
-    background-color: #5051DB;
-    color: #fff;
-}
-
 .o-row--gradient-1 {
     background: linear-gradient(to top right, #5051DB, #3887F7);
     color: #fff;
 }
 
 /* size modifiers */
-
-.o-row--sm {
-    padding: 16px 24px;
-}
 
 .o-row--lg {
     padding: 48px 24px 24px;
