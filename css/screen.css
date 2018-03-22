@@ -97,9 +97,14 @@ img {
     Default markup for typographic elements
 */
 
+h1,
+h2,
+h3 {
+    font-weight: 200;
+}
+
 h1 {
     font-size: 36px;
-    font-weight: normal;
     line-height: 40px;
     margin: 0 0 24px;
 }
