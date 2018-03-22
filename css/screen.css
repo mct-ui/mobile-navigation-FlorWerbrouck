@@ -553,7 +553,8 @@ a:focus {
     color: #6C6C75;
 }
 
-.c-nav__link:hover {
+.c-nav__link:hover,
+.c-nav__link:focus {
     color: #5051db;
 }
 
