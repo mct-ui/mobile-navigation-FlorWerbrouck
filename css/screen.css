@@ -720,7 +720,6 @@ a:focus {
     font-weight: 400;
     padding: 4px 0;
     transition: color .175s ease-in;
-    /* opacity: .7; */
 }
 
 .c-link-cta,
@@ -736,9 +735,11 @@ a:focus {
     left: 0;
     display: block;
     height: 1px;
-    width: 50%;
+    width: 100%;
+    transform: scaleX(.5);
+    transform-origin: left;
     background-color: #7373F5;
-    transition: width .175s ease-in;
+    transition: transform .175s ease-in;
 }
 
 .c-link-cta:hover {
@@ -746,7 +747,7 @@ a:focus {
 }
 
 .c-link-cta:hover::after {
-    width: 100%;
+    transform: scaleX(1);
     background-color: #5051DB;
 }
 
