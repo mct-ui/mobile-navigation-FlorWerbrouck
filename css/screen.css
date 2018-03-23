@@ -509,7 +509,24 @@ a:focus {
         justify-content: space-between;
     }
 
+    .c-footer__nav {
+        padding: 0;
+    }
+
+    .c-footer__logo + .c-footer__nav {
+        order: -1;
+    }
+
     .c-footer__logo {
+        width: auto;
+    }
+
+    /*
+        Bonus: real centering with CSS
+        Checkout: https://css-tricks.com/centering-css-complete-guide/
+    */
+
+    /* .c-footer__logo {
         width: auto;
         position: absolute;
         top: 50%;
@@ -519,11 +536,7 @@ a:focus {
 
     .c-footer__logo .c-logo {
         margin-bottom: 0;
-    }
-
-    .c-footer__nav {
-        padding: 0;
-    }
+    } */
 }
 
 /*
