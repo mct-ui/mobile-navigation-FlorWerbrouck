@@ -817,6 +817,10 @@ a:focus {
     Utility classes to put specific margins and paddings onto elements
 */
 
+.u-pt-clear {
+    padding-top: 0 !important;
+}
+
 .u-mb-clear {
     margin-bottom: 0 !important;
 }
