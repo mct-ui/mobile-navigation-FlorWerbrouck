@@ -749,26 +749,28 @@ a:focus {
 }
 
 .c-link-cta::after {
-    content: '';
+    content: "";
+    display: block;
     position: absolute;
     bottom: 0;
     left: 0;
-    display: block;
     height: 1px;
     width: 100%;
+    background-color: #7373F5;
     transform: scaleX(.5);
     transform-origin: left;
-    background-color: #7373F5;
-    transition: transform .175s ease-in;
+    transition-property: transform background-color;
+    transition-duration: .175s;
+    transition-timing-function: ease-in;
 }
 
 .c-link-cta:hover {
-    color: #5051DB;
+    color: #3E3EA8;
 }
 
 .c-link-cta:hover::after {
     transform: scaleX(1);
-    background-color: #5051DB;
+    background-color: #3E3EA8;
 }
 
 /* inversed */
