@@ -49,10 +49,18 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    margin-top: 80px;
+}
+
 @media (min-width: 768px) {
     html {
         font-size: 20px;
         line-height: 1.6;
+    }
+
+    body {
+        margin-top: 136px;
     }
 }
 
@@ -221,6 +229,17 @@ a:focus {
 
 .o-row--lg {
     padding: 48px 24px 24px;
+}
+
+/* fixed header */
+
+.o-row--header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #fff;
 }
 
 @media (min-width: 768px) {
