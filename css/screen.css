@@ -49,18 +49,10 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    margin-top: 80px;
-}
-
 @media (min-width: 768px) {
     html {
         font-size: 20px;
         line-height: 1.6;
-    }
-
-    body {
-        margin-top: 136px;
     }
 }
 
@@ -234,7 +226,7 @@ a:focus {
 /* fixed header */
 
 .o-row--header {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
