@@ -796,14 +796,12 @@ a:focus {
 
 .c-link-cta--inverse,
 .c-link-cta--inverse:visited,
-.c-link-cta--inverse:active {
+.c-link-cta--inverse:active,
+.c-link-cta--inverse:hover {
     color: #fff;
 }
 
-.c-link-cta--inverse::after {
-    background-color: #fff;
-}
-
+.c-link-cta--inverse::after,
 .c-link-cta--inverse:hover::after {
     background-color: #fff;
 }
