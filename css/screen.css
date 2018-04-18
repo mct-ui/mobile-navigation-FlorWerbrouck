@@ -770,7 +770,7 @@ a:focus {
     background-color: #7373F5;
     transform: scaleX(.5);
     transform-origin: left;
-    transition-property: transform background-color;
+    transition-property: transform, background-color;
     transition-duration: .175s;
     transition-timing-function: ease-in;
 }
