@@ -413,17 +413,13 @@ a:focus {
     padding: 0;
 }
 
-/*------------------------------------*\
-  #COMPONENTS
-\*------------------------------------*/
-
 /*
-    Component: Buttons
+    Object: Button reset
     ---
-    Special button classes
+    Small button reset object
 */
 
-.c-button-reset {
+.o-button-reset {
     border: none;
     margin: 0;
     padding: 0;
@@ -445,6 +441,10 @@ a:focus {
     /* Corrects inability to style clickable `input` types in iOS */
     -webkit-appearance: none;
 }
+
+/*------------------------------------*\
+  #COMPONENTS
+\*------------------------------------*/
 
 /*
     Component: Logo
