@@ -591,6 +591,7 @@ a:focus {
 
 .c-nav-trigger__svg {
     fill: #202024;
+    height: 100%;
 }
 
 .c-nav {
