@@ -223,17 +223,6 @@ a:focus {
     padding: 48px 24px 24px;
 }
 
-/* fixed header */
-
-.o-row--header {
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-    background-color: #fff;
-}
-
 @media (min-width: 768px) {
     .o-row {
         padding-left: 48px;
