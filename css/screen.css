@@ -626,7 +626,7 @@ a:focus {
     color: #5051db;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .c-nav__list {
         display: flex;
         margin-left: -16px;
