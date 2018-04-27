@@ -454,6 +454,8 @@ a:focus {
 
 .c-logo {
     height: 32px;
+    display: flex;
+    align-items: center;
 }
 
 .c-logo__symbol {
