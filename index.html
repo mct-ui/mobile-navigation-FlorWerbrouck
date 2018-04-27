@@ -17,6 +17,20 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/screen.css">
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                toggleNav();
+            })
+
+            function toggleNav() {
+                let toggleTrigger = document.querySelectorAll(".js-toggle-nav");
+                for (let i = 0; i < toggleTrigger.length; i++) {
+                    toggleTrigger[i].addEventListener("touchstart", function() {
+                        document.querySelector("body").classList.toggle("has-mobile-nav");
+                    })
+                }
+            }
+        </script>
     </head>
     <body>
         <div class="c-page">
@@ -330,6 +344,6 @@
                     </nav>
                 </div>
             </div>
-        </aside>        
+        </aside>
     </body>
 </html>
