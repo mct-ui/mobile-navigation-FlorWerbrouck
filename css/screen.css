@@ -265,23 +265,23 @@ a:focus {
 */
 
 .o-section {
-    overflow: auto;
+    position: relative;
 }
 
 .o-section + .o-section {
-    margin-top: 24px;
+    padding-top: 24px;
 }
 
 @media (min-width: 768px) {
     .o-section--lg + .o-section--lg,
     .o-section--xl + .o-section--xl {
-        margin-top: 48px;
+        padding-top: 48px;
     }
 }
 
 @media (min-width: 1200px) {
     .o-section--xl + .o-section--xl {
-        margin-top: 72px;
+        padding-top: 72px;
     }
 }
 
