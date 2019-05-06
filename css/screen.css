@@ -201,9 +201,10 @@ a:focus {
 */
 
 .o-row {
-    overflow: auto;
     position: relative;
     padding: 24px 24px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 /* color modifiers */
@@ -255,6 +256,7 @@ a:focus {
 .o-container {
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
     max-width: 56.4em; /* 56.4 * 20px = 1128px */
 }
 
@@ -265,7 +267,8 @@ a:focus {
 */
 
 .o-section {
-    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .o-section + .o-section {
@@ -622,6 +625,7 @@ a:focus {
     color: #6C6C75;
 }
 
+.is-selected .c-nav__link,
 .c-nav__link:hover,
 .c-nav__link:focus {
     color: #5051db;
